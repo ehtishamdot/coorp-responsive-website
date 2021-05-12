@@ -1,0 +1,14 @@
+:root{
+    --dark-limegreen: rgb(57, 209, 163);
+    --dark-falsa:rgb(81, 81, 199);
+    --primary-black:black;
+    --primary-lightblack: rgb(73, 71, 71);
+    --primary-white: #fff;
+}
+
+*:is(*::before,*::after){
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
