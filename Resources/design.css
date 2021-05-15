@@ -12,3 +12,18 @@
 html{
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+  /* ....containers.... */
+
+.container{
+    width: 40%; 
+}
+
+
+  /* ......typography..... */
+img{
+    display: inline-block;
+}
