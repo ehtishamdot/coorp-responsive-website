@@ -65,6 +65,15 @@ article{
 .attributes__row{
     padding-bottom: 1rem;
 }
+.split__logos{
+    align-items: center;
+    margin: 3rem auto;
+} 
+.firm__img{
+    margin: 2rem;
+}
+
+
 
     /* snippets */
     .snippet {
@@ -78,15 +87,22 @@ article{
       img{
         width: 100%;
     }
-
-      .logo-header{
+    
+    .logo__header{
         margin-top: 5rem; 
+    }
+  .auto-adjust{        
         width: auto;
     }  
     .full_layout_image{
         margin-top: 2.5rem;
     } 
-    
+    .attributes__img{
+        margin: 1.5rem 0;
+    }
+    .firm__img{
+        width: 105px;  
+    }
       /* headings */
      
      h1,h2,h3{
