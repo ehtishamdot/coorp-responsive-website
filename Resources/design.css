@@ -1,3 +1,5 @@
+
+    /* universal */
 :root{
     --dark-limegreen: rgb(57, 209, 163);
     --dark-falsa:rgb(81, 81, 199);
@@ -12,18 +14,95 @@
 html{
     box-sizing: border-box;
 }
-.flex{
+body{
+    font-family: "Cabin", sans-serif;
+    line-height: 1.6;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+  /* accessaries */
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.split{
     display: flex;
     flex-direction: column;
 }
-  /* ....containers.... */
 
-.container{
-    width: 40%; 
+  /* header */
+
+.header{
+    text-align: center;   
 }
 
 
-  /* ......typography..... */
-img{
-    display: inline-block;
+   /* buttons */
+
+.button {
+    color: var(--clr-primary);
+    width: 250px;
+    padding: 0.8em 0;
+    border-radius: 100px;
+    margin: 1.5em auto 0;
+    text-decoration: none;
+    color: white;
+} 
+.button--green {
+    background-color: rgb(57, 209, 163);
 }
+.button--blue {
+    background-color: rgb(81, 81, 199);
+}  
+   /* article */
+article{
+    text-align: center;
+}
+
+.attributes{
+    padding-top: 2rem;
+}
+.attributes__row{
+    padding-bottom: 1rem;
+}
+
+    /* snippets */
+    .snippet {
+        margin: 9rem 2rem 3rem;        
+      }
+
+      /* General Styles Typography */
+  
+      /* images */
+
+      img{
+        width: 100%;
+    }
+
+      .logo-header{
+        margin-top: 5rem; 
+        width: auto;
+    }  
+    .full_layout_image{
+        margin-top: 2.5rem;
+    } 
+    
+      /* headings */
+     
+     h1,h2,h3{
+         line-height: 1.3;
+     } 
+
+    h1{
+        margin-top: 3rem;
+        font-size: 2em;
+    }
+
+    /* paragraph */
+
+    p{
+        margin-top: .5rem;
+        opacity: .5;
+    }
+      
+    
