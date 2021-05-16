@@ -1,97 +1,99 @@
 
+
     /* universal */
-:root{
-    --dark-limegreen: rgb(57, 209, 163);
-    --dark-falsa:rgb(81, 81, 199);
-    --primary-black:black;
-    --primary-lightblack: rgb(73, 71, 71);
-    --primary-white: #fff;
-}
-
-*:is(*::before,*::after){
-    box-sizing: inherit;
-}
-html{
-    box-sizing: border-box;
-}
-body{
-    font-family: "Cabin", sans-serif;
-    line-height: 1.6;
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
-}
-  /* accessaries */
-.container
-{
-    width: 80%;
-    margin: 0 auto;
-}
-.split{
-    display: flex;
-    flex-direction: column;
-}
-
-  /* header */
-
-.header{
-    text-align: center;   
-}
-
-
-   /* buttons */
-
-.button {
-    color: var(--clr-primary);
-    width: 250px;
-    padding: 0.8em 0;
-    border-radius: 100px;
-    margin: 1.5em auto 0;
-    text-decoration: none;
-    color: white;
-} 
-.button--green {
-    background-color: rgb(57, 209, 163);
-}
-.button--blue {
-    background-color: rgb(81, 81, 199);
-}  
-   /* article */
-article{
-    text-align: center;
-}
-
-.attributes{
-    padding-top: 2rem;
-}
-.attributes__row{
-    padding-bottom: 1rem;
-}
-.split__logos{
-    align-items: center;
-    margin: 3rem auto;
-} 
-.firm__img{
-    margin: 2rem;
-}
-
-
-
+    :root{
+        --dark-limegreen: rgb(57, 209, 163);
+        --dark-falsa:rgb(81, 81, 199);
+        --primary-black:black;
+        --primary-lightblack: rgb(73, 71, 71);
+        --primary-white: #fff;
+    }
+    
+    *:is(*::before,*::after){
+        box-sizing: inherit;
+    }
+    html{
+        box-sizing: border-box;
+        
+    }
+    body{
+        font-family: "Cabin", sans-serif;
+        line-height: 1.6;
+        font-size: clamp(0.8rem, 2vw, 1.2rem);   
+        margin: 0;
+    }
+      /* accessaries */
+    .container
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .split{
+        display: flex;
+        flex-direction: column;
+    }
+    
+      /* header */
+    
+    .header{
+        text-align: center;   
+    }
+    
+    
+       /* buttons */
+    
+    .button {
+        color: var(--clr-primary);
+        width: 250px;
+        padding: 0.8em 0;
+        border-radius: 100px;
+        margin: 1.5em auto 0;
+        text-decoration: none;
+        color: white;
+    } 
+    .button--green {
+        background-color: rgb(57, 209, 163);
+    }
+    .button--blue {
+        background-color: rgb(81, 81, 199);
+    }  
+       /* article */
+    article{
+        text-align: center;
+    }
+    
+    .attributes{
+        padding-top: 2rem;
+    }
+    .attributes__row{
+        padding-bottom: 1rem;
+    }
+    .split__logos{
+        align-items: center;
+        margin: 3rem auto;
+    } 
+    .firm__img{
+        margin: 2rem;
+    }
+  
     /* snippets */
     .snippet {
         margin: 9rem 2rem 3rem;        
-      }
-
+    }
+     
+    
       /* General Styles Typography */
   
       /* images */
 
-      img{
+    img{
         width: 100%;
     }
     
     .logo__header{
         margin-top: 5rem; 
     }
-  .auto-adjust{        
+    .auto-adjust{        
         width: auto;
     }  
     .full_layout_image{
@@ -120,5 +122,36 @@ article{
         margin-top: .5rem;
         opacity: .5;
     }
+    
+    /* footer */
+    footer{
+        text-align: center;
+        background-color: #f5f5f5;
+        margin-top: 5rem;
+        padding: 4rem 0;                                                         
+    }
+    .footer__img{
+          
+    }
+    .footer__links{
+        margin-top: 2rem; 
+        
+    }
+    .footer__links a{
+        text-decoration: none;
+    }
+    .footer__links ul{
+        list-style: none;
+        text-align: center;
+    }
+    .footer__links li{
+        padding: .5rem;
+        
+    }
+    .footer__img img{
+       width: 10%;
+    }
       
     
+    
+        
